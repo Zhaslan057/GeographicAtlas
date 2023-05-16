@@ -2,16 +2,18 @@
 //  GeographicAtlasApp.swift
 //  GeographicAtlas
 //
-//  Created by Жаслан Танербергенов on 16.05.2023.
+//  Created by Жаслан Танербергенов on 12.05.2023.
 //
 
 import SwiftUI
 
 @main
 struct GeographicAtlasApp: App {
+    @StateObject private var countriesVM = CountriesViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(countriesVM: CountriesViewModel())
+                .environmentObject(countriesVM)
         }
     }
 }
