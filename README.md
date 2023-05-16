@@ -3,7 +3,7 @@ iOS test assignment for the STRONG TEAM Summer Internship
 Advanced:
 - SwiftUI only
 - Skeleton view
-- looks good on from iPhone SE(3-rd) to iPad 10
+- looks good any devices
 - animated expand
 - i think good naming
 - used MVVM
